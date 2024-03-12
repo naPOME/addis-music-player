@@ -1,11 +1,11 @@
-// src/components/AddSongCard.js
+
 import React from 'react';
 import styled from '@emotion/styled';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { closeAddSongForm } from '../redux/addSongSlice';
 
-// Styled components
+
 const CardContainer = styled.div`
   width: 170px;
   border-radius: 12px;
